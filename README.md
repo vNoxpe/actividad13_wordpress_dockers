@@ -21,30 +21,32 @@ echo \
   "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian \
   "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
 ![image](https://github.com/vNoxpe/actividad13_wordpress_dockers/assets/144890599/0f67b627-4ffd-4d27-b932-e275af635bcb)
 
 # 3º.- INSTALACIÓN DEL MOTOR DE DOCKER
 
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
 ![image](https://github.com/vNoxpe/actividad13_wordpress_dockers/assets/144890599/bf379e13-ba05-4304-a2a8-f5d1e5f40d5c)
 
 
 ## COMPROBACIÓN INSTALACIÓN DOCKER
 docker version
 
-![image](https://github.com/vNoxpe/actividad13_wordpress_dockers/assets/144890599/e308afa5-9c32-4072-a2aa-f100c61ffc1b)
+- ![image](https://github.com/vNoxpe/actividad13_wordpress_dockers/assets/144890599/e308afa5-9c32-4072-a2aa-f100c61ffc1b)
 
 docker run hello-world
-![image](https://github.com/vNoxpe/actividad13_wordpress_dockers/assets/144890599/27d8d766-82e0-4cdf-a731-6b57444e50c9)
+- ![image](https://github.com/vNoxpe/actividad13_wordpress_dockers/assets/144890599/27d8d766-82e0-4cdf-a731-6b57444e50c9)
 
 
 ## INSTALACIÓN DOCKER-COMPOSE:
 sudo apt install docker-compose-plugin
- ![image](https://github.com/vNoxpe/actividad13_wordpress_dockers/assets/144890599/3b99589f-5d43-4559-b61c-031872d9002b)
+- ![image](https://github.com/vNoxpe/actividad13_wordpress_dockers/assets/144890599/3b99589f-5d43-4559-b61c-031872d9002b)
 
 ## COMPROBACIÓN INSTALACIÓN DOCKER-COMPOSE
 docker compose version
- ![image](https://github.com/vNoxpe/actividad13_wordpress_dockers/assets/144890599/38f2081c-7d4d-406c-98cf-86e47b305f5c)
+-![image](https://github.com/vNoxpe/actividad13_wordpress_dockers/assets/144890599/38f2081c-7d4d-406c-98cf-86e47b305f5c)
 
 # Clonamos el repositorio de gihub de la tarea:
 ![image](https://github.com/vNoxpe/actividad13_wordpress_dockers/assets/144890599/5c09c954-858c-495e-b21d-bf38021a1b98)
