@@ -53,8 +53,11 @@ docker compose version
 
 # Añdimos los ficheros config-compose.yml y .env y los modificamos:
 fichero config-compose.yml
+
 ![image](https://github.com/vNoxpe/actividad13_wordpress_dockers/assets/144890599/bca85172-4a90-446b-adb7-3eff60def41e)
+
 fichero .env
+
 ![image](https://github.com/vNoxpe/actividad13_wordpress_dockers/assets/144890599/90b05737-6e93-468e-ae3f-c7ca04898cb1)
 
 # Ahora arracncamos DOCKER con:
