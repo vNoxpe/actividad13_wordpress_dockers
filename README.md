@@ -63,3 +63,7 @@ fichero .env
 # Ahora arracncamos DOCKER con:
 
 ![image](https://github.com/vNoxpe/actividad13_wordpress_dockers/assets/144890599/7cc4b7b9-077d-4bfb-b2ce-2d44e6f4e28f)
+ # Comprobamos que vaya la paigina de wordpress poniendo la ip de la maquina que tiene instaldo el wordpress.
+ ![Uploading image.png…]()
+
+ Y ya estaria desplegado wordpress con docker.
