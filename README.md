@@ -46,8 +46,15 @@ sudo apt install docker-compose-plugin
 docker compose version
  ![image](https://github.com/vNoxpe/actividad13_wordpress_dockers/assets/144890599/38f2081c-7d4d-406c-98cf-86e47b305f5c)
 
-## AGREGAMOS NUESTRO USUARIO AL GRUPO DE DOCKER:
-sudo groupadd docker
-sudo usermod –aG docker nombre_usuario 
-sudo usermod –a -G docker nombre_usuario 
-su nombre_usuario
+# Clonamos el repositorio de gihub de la tarea:
+![image](https://github.com/vNoxpe/actividad13_wordpress_dockers/assets/144890599/5c09c954-858c-495e-b21d-bf38021a1b98)
+
+# Añdimos los ficheros config-compose.yml y .env y los modificamos:
+fichero config-compose.yml
+![image](https://github.com/vNoxpe/actividad13_wordpress_dockers/assets/144890599/bca85172-4a90-446b-adb7-3eff60def41e)
+fichero .env
+![image](https://github.com/vNoxpe/actividad13_wordpress_dockers/assets/144890599/90b05737-6e93-468e-ae3f-c7ca04898cb1)
+
+# Ahora arracncamos DOCKER con:
+
+![image](https://github.com/vNoxpe/actividad13_wordpress_dockers/assets/144890599/7cc4b7b9-077d-4bfb-b2ce-2d44e6f4e28f)
