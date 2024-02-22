@@ -68,4 +68,4 @@ fichero .env
 
  Y ya estaria desplegado wordpress con docker.
  # Enlace al repositorio de github
- |[Wordpres_dockers](https://github.com/vNoxpe/actividad13_wordpress_dockers)
+ [Actividad13_wordpres_dockers](https://github.com/vNoxpe/actividad13_wordpress_dockers)
